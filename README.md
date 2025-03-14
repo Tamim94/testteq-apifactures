@@ -1,6 +1,6 @@
 
 
-```md
+
 # 📄 API Factures - Express.js + Supabase
 
 API de gestion des factures développée avec **TypeScript**, **Express.js** et **PostgreSQL via Supabase**.
