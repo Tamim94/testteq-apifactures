@@ -60,7 +60,7 @@ POST /factures
   "total_ttc": 1200
 }
 ```
-Like in this screenshot : 
+Like in this screenshot (201 means the request passed!) : 
 ![image](https://github.com/user-attachments/assets/125f8d24-3b6c-440f-960b-f8c12e26a4b8)
 
 ### **2️⃣ Récupérer toutes les factures**
