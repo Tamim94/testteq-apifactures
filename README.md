@@ -1,16 +1,16 @@
 
----
-### **📄 `README.md`**
+
 ```md
 # 📄 API Factures - Express.js + Supabase
 
 API de gestion des factures développée avec **TypeScript**, **Express.js** et **PostgreSQL via Supabase**.
+## Partie 1 du teste technique est dans le pdf testetechniquepartone-model.pdf , la Partie 2 facultative ci dessous avec le code et documentation.
 
 ## 🚀 Installation et exécution
 
 1. **Cloner le projet**  
    ```sh
-   git clone https://github.com/ton-repo/api-factures.git
+   git clone https://github.com/Tamim94/testteq-apifactures.git
    cd api-factures
    ```
 
@@ -19,7 +19,7 @@ API de gestion des factures développée avec **TypeScript**, **Express.js** et 
    npm install
    ```
 
-3. **Configurer les variables d’environnement**  
+3. **Configurer les variables d’environnement**   
   Le fichier env est dans le projet et definie les clés API du projet supabase (la base de donéées PostreSQL dedans)
 
 4. **Démarrer le serveur**
