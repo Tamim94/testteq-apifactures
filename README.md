@@ -93,6 +93,9 @@ DELETE /factures/{id_facture}
 - 🔐 Ajout de l’authentification avec JWT
 - 📊 Statistiques sur les factures
 - 📦 Ajout de la pagination pour `/factures`
+- Ajouter la gestion des clients.
+- Herbergé l'API sur une plateforme tel que GCP ( je pourrais faire avec un peu plus de temps ) 
+
 
 ---
 
