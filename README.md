@@ -1,14 +1,5 @@
-Oui, **Swagger génère une documentation interactive**, mais il ne remplace pas un bon **README** ! Un README est utile pour :
-- Expliquer comment **installer et exécuter** l’API 🚀
-- Détailler les **technos utilisées** 🛠️
-- Indiquer comment **tester les routes avec Swagger** 📖
-- Ajouter des **exemples de requêtes** 🔥
 
 ---
-
-## **📌 Création d’un README (`README.md`)**
-Voici un **README complet** que tu peux utiliser et modifier selon tes besoins :
-
 ### **📄 `README.md`**
 ```md
 # 📄 API Factures - Express.js + Supabase
@@ -29,12 +20,7 @@ API de gestion des factures développée avec **TypeScript**, **Express.js** et 
    ```
 
 3. **Configurer les variables d’environnement**  
-   Crée un fichier `.env` et ajoute tes clés Supabase :
-   ```env
-   SUPABASE_URL=https://your-supabase-url.supabase.co
-   SUPABASE_KEY=your-anon-key
-   PORT=3000
-   ```
+  Le fichier env est dans le projet et definie les clés API du projet supabase (la base de donéées PostreSQL dedans)
 
 4. **Démarrer le serveur**
    ```sh
@@ -45,11 +31,13 @@ ou
    ```
 
 ## 📖 Documentation API (Swagger)
-Une documentation interactive est disponible avec Swagger :
+Une documentation interactive est disponible avec Swagger pour l'API :
 
-🔗 [Accéder à la documentation Swagger](http://localhost:3000/api-docs)
+🔗 [Accéder à la documentation Swagger](http://localhost:3000/api-docs) btw le port sera peut etre different si vous avez deja le 3000 used , si vous avez une erreur de port  faite un netstat -ano | findstr :3000 et taskkill /PID PID /F.
 
-Lance le serveur et ouvre `http://localhost:3000/api-docs` dans ton navigateur.
+Lancez le serveur et ouvrez `http://localhost:3000/api-docs` dans votre navigateur (Comme ci-dessous).
+![image](https://github.com/user-attachments/assets/ba74e15f-1594-43ac-969c-cccda3e79e9b)
+
 
 ---
 
@@ -70,6 +58,8 @@ POST /factures
   "total_ttc": 1200
 }
 ```
+Like in this screenshot : 
+![image](https://github.com/user-attachments/assets/125f8d24-3b6c-440f-960b-f8c12e26a4b8)
 
 ### **2️⃣ Récupérer toutes les factures**
 ```http
@@ -105,5 +95,7 @@ DELETE /factures/{id_facture}
 ---
 
 ## 📩 Contact
-Si tu as des questions, n’hésite pas à me contacter via [LinkedIn](https://linkedin.com) ou à créer une issue sur le repo GitHub.
+Si vous avez des questions n’hésitez pas à me contacter via Linkdein www.linkedin.com/in/tamim-golam , par mail golam.tamim94@gmail.com  ou à créer une issue sur le repo GitHub. 
+## Mon Portflio avec tout les projets  : tamimg-portfolio.web.app
+
 
