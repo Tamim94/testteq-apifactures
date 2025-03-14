@@ -25,10 +25,12 @@ API de gestion des factures développée avec **TypeScript**, **Express.js** et 
 4. **Démarrer le serveur**
    ```sh
  npm run dev 
-ou  
- npx ts-node src/index.ts
-   
    ```
+ou
+   ```sh
+ npx ts-node src/index.ts
+   ```
+
 
 ## 📖 Documentation API (Swagger)
 Une documentation interactive est disponible avec Swagger pour l'API :
