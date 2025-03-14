@@ -24,7 +24,7 @@ API de gestion des factures développée avec **TypeScript**, **Express.js** et 
 
 4. **Démarrer le serveur**
    ```sh
- npm run dev 
+   npm run dev 
    ```
 ou
    ```sh
