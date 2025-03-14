@@ -3,7 +3,7 @@
 
 # 📄 API Factures - Express.js + Supabase
 
-API de gestion des factures développée avec **TypeScript**, **Express.js** et **PostgreSQL via Supabase**.
+API de gestion des factures développée avec **TypeScript**, **Express.js** et **PostgreSQL via Supabase** pour le teste technique .
 ## Partie 1 du teste technique est dans le pdf testetechniquepartone-model.pdf , la Partie 2 facultative ci dessous avec le code et documentation.
 
 ## 🚀 Installation et exécution
